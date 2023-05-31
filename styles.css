@@ -240,16 +240,6 @@
   font-size: 35px;
 }
 
-.foto{
-  background-color: #fff;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 35px;
-}
 
 
 .stats-jgdores{
@@ -360,4 +350,146 @@
   color: #fff;
   padding-top: 30px;
 }
+
+
+/* Pagina Premios */
+h2{
+  text-align: center;
+  font-size: 43px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+
+/* Asignando fotos */
+
+.foto-rocco{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(images/Rocco.jpeg);
+  background-size: cover;
+}
+
+.foto-agus{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url('images/agus.jpeg');
+  background-size: cover;
+}
+
+
+.foto-fede{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url('images/fede.jpeg');
+  background-size: cover;
+}
+
+.foto-maxi{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  background-size: cover;
+}
+
+.foto-facu{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url('images/facu.jpeg');
+  background-size: cover;
+}
+
+.foto-alejo{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(images/alejo.jpeg);
+  background-size: cover;
+}
+
+.foto-lolo{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  background-size: cover;
+}
+
+
+.foto-octa{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url('images/octa.jpeg');
+  background-size: cover;
+}
+
+.foto-tincho{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(images/tincho.jpeg);
+  background-size: cover;
+}
+
+.foto-posho{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url('images/posho.jpeg');
+  background-size: cover;
+}
+
+
+/* Seccion premios */
+
+.premios{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: 
+  'none mvp none'
+  'goleador mvp asistidor'
+  'goleador mvp asistidor';
+  color: #fff;
+}
+
+.goleador{
+  grid-area: goleador;
+  border: 2px solid #fff;
+}
+
+.asistidor{
+  grid-area: asistidor;
+}
+
+.mvp{
+  grid-area: mvp;
+}
+
 
