@@ -215,6 +215,7 @@
   color: #ffffff;
   margin: 0;
   text-decoration: none;
+  font-size: 30px;
 }
 
 
@@ -233,6 +234,97 @@
 }
 
 .contenedor-jgdor h2 , .contenedor-jgdor2 h2{
+  grid-area: Nombre;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+
+.foto{
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+
+.stats-jgdores{
+  padding-top: 50px;
+  height: 350px;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  'PJ PG PP'
+  'Goles Asistencias Puntos';
+  text-align: center;
+  padding-bottom: 20px ;
+}
+
+.stats-jgdores h3{
+  font-size: 24px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+
+/* Pagina temporada */
+.temporada{
+  text-align: center;
+  color: #ffffff ;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(94, 30, 30);
+  padding-top: 40px;
+}
+
+.temporada h2{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contenedor-temp{
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-temp div{
+  margin: 0;
+  font-size: 26px;
+  padding-top: 50px;
+}
+
+.contenedor-temp div a{
+  color: #ffffff;
+  margin: 0;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.contenedor-temp-jg{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(105, 63, 63);
+  padding-top: 40px;
+}
+
+.contenedor-temp-jg2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(87, 52, 52);
+    padding-top: 40px;
+}
+
+.contenedor-temp-jg h2 , .contenedor-temp-jg2 h2{
   grid-area: Nombre;
   color: #fff;
   text-align: center;
