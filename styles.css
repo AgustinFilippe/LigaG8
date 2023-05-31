@@ -369,7 +369,7 @@ h2{
   text-align: center;
   margin: 0 auto;
   border-radius: 50%;
-  background-image: url(images/Rocco.jpeg);
+  background-image: url('images/Rocco.jpeg');
   background-size: cover;
 }
 
@@ -420,7 +420,7 @@ h2{
   text-align: center;
   margin: 0 auto;
   border-radius: 50%;
-  background-image: url(images/alejo.jpeg);
+  background-image: url('images/alejo.jpeg');
   background-size: cover;
 }
 
@@ -451,7 +451,7 @@ h2{
   text-align: center;
   margin: 0 auto;
   border-radius: 50%;
-  background-image: url(images/tincho.jpeg);
+  background-image: url('images/tincho.jpeg');
   background-size: cover;
 }
 
